@@ -295,6 +295,16 @@ h2 {
 #close-detail:hover {
     background: #222;
 }
+@media (max-width: 800px) {
+    #image-detail img {
+        max-width: 98vw;
+        max-height: 40vh;
+    }
+    #close-detail {
+        top: 16px;
+        right: 16px;
+    }
+}
 /*.shtip-iframe-container {*/
 /*    width: 100%;*/
 /*    max-width: 900px;*/
